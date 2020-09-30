@@ -1,0 +1,45 @@
+    * {
+        margin: 0;
+        padding: 0;
+        overflow: auto;
+    }
+
+    html,
+    body {
+        width: 100%;
+        height: 100%;
+        display: inline-flex;
+    }
+
+    #code{
+        height: 30%;
+    }
+
+    .leftPage {
+        width: 50%;
+        height: 95%;
+        display: inline-block;
+        margin: 0 auto auto 2.5%;
+    }
+
+    .rightPage {
+        width: 50%;
+        display: inline-block;
+        margin: 2.5%;
+    }
+
+    .rightPage p{
+        margin:auto 10%;
+    }
+
+    .start {
+        width: 80%;
+        height: 40px;
+        margin:2.5% auto;
+        display: block;
+    }
+    .writeArea{
+        width: 80%;
+        margin:2.5% auto;
+        display: block;
+    }
